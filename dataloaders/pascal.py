@@ -30,7 +30,7 @@ class VOCSegmentation(data.Dataset):
                  root=Path.db_root_dir('pascal'),
                  split='val',
                  transform=None,
-                 download=False,
+                 download=True,
                  preprocess=False,
                  area_thres=0,
                  retname=True,

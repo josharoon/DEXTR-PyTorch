@@ -36,7 +36,7 @@ net.eval()
 net.to(device)
 
 #  Read image and click the points
-image = np.array(Image.open('ims/dog-cat.jpg'))
+image = np.array(Image.open('ims/MDT_RoboRightPartNeph_030_sequence.2259.jpg'))
 plt.ion()
 plt.axis('off')
 plt.imshow(image)
